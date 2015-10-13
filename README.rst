@@ -15,7 +15,8 @@ Requirements
 Goals
 -------------
 My goals are as follows
-- Read a `.tex.j2` file that has Jinja2 markup in it
+
+- Read a ``.tex.j2`` file that has Jinja2 markup in it
 - Read a Yaml file with context data
   + The Yaml file should support a global context and also
     overloads for, e.g. individual recipients of a letter
