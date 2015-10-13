@@ -10,10 +10,12 @@ setuptools.setup(
 
     description="Python script to create templated XeLaTeX documents",
     long_description=open('README.rst').read(),
-
     packages=setuptools.find_packages(),
 
-    install_requires=[],
+    install_requires=[
+        'pyyaml',
+        'jinja2'
+    ],
 
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
@@ -22,5 +24,8 @@ setuptools.setup(
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.4',
+    ],
+    scripts =[
+        'scripts/j2tex2pdf.py'
     ],
 )
