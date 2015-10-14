@@ -1,4 +1,4 @@
-"""jinjaxelatex - Python script to create templated XeLaTeX documents"""
+"""j2tex - Python script to create templated LaTeX documents"""
 
 __version__ = '0.1.0'
 __author__ = 'Kyle Jensen <kljensen@gmail.com>'

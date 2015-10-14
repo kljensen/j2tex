@@ -1,4 +1,4 @@
-jinjaxelatex
+j2tex
 ============
 
 Python script to create templated XeLaTeX documents
@@ -55,4 +55,4 @@ For more information, please refer to <http://unlicense.org/>
 Authors
 -------
 
-`jinjaxelatex` was written by `Kyle Jensen <kljensen@gmail.com>`_.
+`j2tex` was written by `Kyle Jensen <kljensen@gmail.com>`_.

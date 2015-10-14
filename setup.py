@@ -1,9 +1,9 @@
 import setuptools
 
 setuptools.setup(
-    name="jinjaxelatex",
+    name="j2tex",
     version="0.1.0",
-    url="https://github.com/kljensen/jinjaxelatex",
+    url="https://github.com/kljensen/j2tex",
 
     author="Kyle Jensen",
     author_email="kljensen@gmail.com",

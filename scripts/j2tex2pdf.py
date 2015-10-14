@@ -6,7 +6,7 @@ logging.basicConfig(format='%(filename)s %(levelname)s ' \
 logging.root.setLevel(logging.INFO)
 import argparse
 
-from jinjaxelatex import load_context_files, get_jinja_env, render_tex
+from j2tex import load_context_files, get_jinja_env, render_tex
 
 def parse_args():
     parser = argparse.ArgumentParser()
