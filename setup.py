@@ -26,6 +26,6 @@ setuptools.setup(
         'Programming Language :: Python :: 3.4',
     ],
     scripts =[
-        'scripts/j2tex2pdf.py'
+        'scripts/j2tex.py'
     ],
 )
