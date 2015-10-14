@@ -112,7 +112,8 @@ def render_tex(j2env, context, output_directory):
             subcontext['template'],
             subcontext['key']
         )
-        with open()
+        with codecs.open(output_file, mode="w", encoding="utf-8") as fh:
+            fh.write(tex_content)
 
 def run_command(*args):
     """CLI wrapper"""
