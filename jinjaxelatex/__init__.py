@@ -78,6 +78,8 @@ def validate_context(context):
         if not context.get('template'):
             if not o.get('template'):
                 raise Exception('Each output in your YAML context file requires a `template`')
+        if not o.get('key'):
+            raise Exception('Each output in your YAML context file requires a `key`')
 
 def fname(arg):
     pass
